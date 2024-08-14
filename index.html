@@ -1,0 +1,62 @@
+\\*index.html*\\  - can add pdf info
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DJ Arson</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <nav class="nav">
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="booking.html">BOOKING</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="login.html">CLIENT LOGIN</a></li>
+                </ul>
+            </nav>
+            <hr>
+            
+          
+        </header>
+
+        <section>
+            <h2></h2>
+            <div>
+                <div>
+        
+                </div>
+                <!-- Repeat for other tour dates -->
+            </div>
+        </section>
+
+        <footer>
+            <h3>DJ Arson</h3>
+            <button type="button">Listen to Our Latest Album</button>
+            <br><br>
+            <!-- TODO: Find a suitable background image -->
+            <button type="button">&#9658;</button>
+            <ul>
+                <li><img src="IMG_1590.PNG" alt="DJ Arson Logo"></li>
+                <!-- Add other social media icons as needed -->
+            </ul>
+        </footer>
+
+        <script>
+            function toggleMenu() {
+                var nav = document.querySelector('.nav ul');
+                nav.classList.toggle('show');
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,60 @@
+/* events.html */
+-either this or make it ore like DJ EterPrize-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DJ Arson | Events</title>
+    <meta name="description" content="Upcoming events and performances by DJ Arson">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="hamburger" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="booking.html">BOOKING</a></li>
+            <li><a href="events.html">EVENTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="login.html">CLIENT LOGIN</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Upcoming Events</h2>
+    <div class="event">
+        <h3>Bahrain Music Festival</h3>
+        <p>Date: August 25, 2024</p>
+        <p>Location: Bahrain International Circuit, Sakhir</p>
+        <p>Description: A grand event featuring top DJs and artists from around the world, with DJ Arson headlining the night.</p>
+    </div>
+    <div class="event">
+        <h3>Summer Groove Party</h3>
+        <p>Date: September 10, 2024</p>
+        <p>Location: Crowne Plaza, Manama</p>
+        <p>Description: Join DJ Arson for an unforgettable night of summer beats and electrifying music.</p>
+    </div>
+    <div class="event">
+        <h3>New Year's Eve Bash</h3>
+        <p>Date: December 31, 2024</p>
+        <p>Location: Wyndham Garden, Manama</p>
+        <p>Description: Ring in the new year with DJ Arson at one of the most anticipated events of the year.</p>
+    </div>
+</div>
+
+<script>
+    function toggleMenu() {
+        var nav = document.querySelector('nav ul');
+        nav.classList.toggle('show');
+    }
+</script>
+
+</body>
+</html>
